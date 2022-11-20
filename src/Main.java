@@ -23,7 +23,7 @@ public class Main {
 
         for(int i = 0; i < n; i++) {
             a[i] = scanner.nextInt();
-            if(max < Math.abs(a[i])) {max = a[i];}
+            if(max < Math.abs(a[i])) {max = Math.abs(a[i]);}
 
         }
         for(int i = 0; i < n; i++) {
